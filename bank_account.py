@@ -21,3 +21,6 @@ class BankAccount:
 
     def display_balance(self):
         print(f"{self.account_holder}'s balance: ${self.balance}")
+
+    def get_account_info(self):
+        return f"Account Holder: {self.account_holder}, Balance: ${self.balance}"
